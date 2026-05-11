@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>DineSpot | Restaurant Discovery Platform</title>
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet"
+    >
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+
+    <!-- ================= NAVBAR ================= -->
+
+    <header>
+        <nav class="navbar">
+
+            <div class="logo">
+                <img src="assets/images/ico.jpg" alt="DineSpot Logo">
+                <span>DineSpot</span>
+            </div>
+
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#restaurants">Restaurants</a></li>
+                <li><a href="#categories">Categories</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            <button class="nav-btn">Sign In</button>
+
+        </nav>
+    </header>
+
+
+
+    <!-- ================= HERO SECTION ================= -->
+
+    <section id="home" class="hero">
+
+        <div class="hero-content">
+
+            <p class="hero-tag">
+                Discover the best food near you
+            </p>
+
+            <h1>
+                Explore top-rated restaurants and cafes in your city.
+            </h1>
+
+            <p class="hero-description">
+                Browse trending dishes, discover local favorites,
+                and enjoy a seamless food discovery experience.
+            </p>
+
+            <div class="hero-search">
+
+                <input 
+                    type="text" 
+                    id="searchInput"
+                    placeholder="Search restaurants, cuisines..."
+                >
+
+                <button>Explore</button>
+
+            </div>
+
+        </div>
+
+        <div class="hero-image">
+            <img src="assets/images/hero-food.jpg" alt="Food Banner">
+        </div>
+
+    </section>
+
+
+
+    <!-- ================= FEATURED RESTAURANTS ================= -->
+
+    <section id="restaurants" class="restaurants-section">
+
+        <div class="section-heading">
+            <p>Popular Picks</p>
+            <h2>Featured Restaurants</h2>
+        </div>
+
+        <div class="restaurant-grid">
+
+            <!-- CARD 1 -->
+
+            <div class="restaurant-card searchable-card">
+
+                <img src="assets/images/card-I.jpg" alt="Restaurant">
+
+                <div class="card-content">
+
+                    <div class="card-top">
+
+                        <h3 class="restaurant-name">Spice Avenue</h3>
+
+                        <span class="rating">
+                            ⭐ 4.5
+                        </span>
+
+                    </div>
+
+                    <p class="cuisine">
+                        Indian • North Indian
+                    </p>
+
+                    <div class="card-bottom">
+
+                        <span>30 mins</span>
+                        <span>₹₹</span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- CARD 2 -->
+
+            <div class="restaurant-card searchable-card">
+
+                <img src="assets/images/card-II.jpg" alt="Restaurant">
+
+                <div class="card-content">
+
+                    <div class="card-top">
+
+                        <h3 class="restaurant-name">Urban Bites</h3>
+
+                        <span class="rating">
+                            ⭐ 4.3
+                        </span>
+
+                    </div>
+
+                    <p class="cuisine">
+                        Burgers • Fast Food
+                    </p>
+
+                    <div class="card-bottom">
+
+                        <span>25 mins</span>
+                        <span>₹</span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- CARD 3 -->
+
+            <div class="restaurant-card searchable-card">
+
+                <img src="assets/images/card-III.jpg" alt="Restaurant">
+
+                <div class="card-content">
+
+                    <div class="card-top">
+
+                        <h3 class="restaurant-name">Pasta House</h3>
+
+                        <span class="rating">
+                            ⭐ 4.7
+                        </span>
+
+                    </div>
+
+                    <p class="cuisine">
+                        Italian • Pasta
+                    </p>
+
+                    <div class="card-bottom">
+
+                        <span>40 mins</span>
+                        <span>₹₹₹</span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ================= FOOD CATEGORIES ================= -->
+
+    <section id="categories" class="categories-section">
+
+        <div class="section-heading">
+            <p>Browse By Taste</p>
+            <h2>Explore Categories</h2>
+        </div>
+
+        <div class="categories-grid">
+
+            <div class="category-card">🍕 Pizza</div>
+            <div class="category-card">🍔 Burgers</div>
+            <div class="category-card">🍜 Asian</div>
+            <div class="category-card">🍰 Desserts</div>
+            <div class="category-card">🥗 Healthy</div>
+            <div class="category-card">☕ Cafes</div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ================= CONTACT SECTION ================= -->
+
+    <section id="contact" class="contact-section">
+
+        <div class="section-heading">
+            <p>Get In Touch</p>
+            <h2>Contact Us</h2>
+        </div>
+
+        <div class="contact-container">
+
+            <form class="contact-form">
+
+                <input
+                    type="text"
+                    placeholder="Your Name"
+                >
+
+                <input
+                    type="email"
+                    placeholder="Your Email"
+                >
+
+                <textarea
+                    rows="6"
+                    placeholder="Write your message..."
+                ></textarea>
+
+                <button type="submit">
+                    Send Message
+                </button>
+
+            </form>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer>
+
+        <div class="footer-content">
+
+            <h3>DineSpot</h3>
+
+            <p>
+                Discover restaurants, cafes, and trending food spots near you.
+            </p>
+
+            <p class="copyright">
+                © 2026 DineSpot. All rights reserved.
+            </p>
+
+        </div>
+
+    </footer>
+
+
+
+    <!-- JS -->
+    <script src="js/script.js"></script>
+
+</body>
+</html>

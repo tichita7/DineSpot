@@ -57,7 +57,7 @@ Fully responsive across:
 
 ## 🔗 Live Demo
 
-(Add Netlify link here after deployment)
+tichita7.github.io/DineSpot/
 
 ---
 

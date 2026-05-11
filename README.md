@@ -44,7 +44,14 @@ Fully responsive across:
 
 ## 📸 Screenshots
 
-(Add screenshots here later)
+### Desktop View
+![Desktop](screenshots/desktop.png)
+
+### Mobile View
+![Mobile](screenshots/mobile.png)
+
+### Restaurant Section
+![Restaurants](screenshots/restaurants.png)
 
 ---
 
